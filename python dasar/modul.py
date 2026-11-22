@@ -1,17 +1,11 @@
 # modul.py
-import matematika
+from my_packages import operasi, geometri
 
-print(matematika.tambah(2, 3))   # Output: 5
-print(matematika.kali(4, 5))     # Output: 20
+print(operasi.kurang(10, 4))          # 6
+print(geometri.luas_persegi(5))       # 25
 
-import matematika as m
+from my_packages.operasi import kurang
+from my_packages.geometri import luas_persegi
 
-print(m.tambah(10, 5))   # Output: 15
-from matematika import tambah
-
-print(tambah(7, 3))   # Output: 10
-
-import math
-
-print(math.sqrt(16))   # Akar kuadrat → 4.0
-print(math.pi)         # Nilai π → 3.141592653589793
+print(kurang(20, 7))                  # 13
+print(luas_persegi(8))                # 64
