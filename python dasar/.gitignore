@@ -1,0 +1,28 @@
+# Byte-compiled / cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# Pengaturan Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# File hasil latihan File Handling (opsional, hapus jika ingin di-push)
+*.log
+*.tmp
+
+# File sistem operasi
+.DS_Store
+Thumbs.db

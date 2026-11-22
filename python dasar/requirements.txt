@@ -1,0 +1,3 @@
+# Materi Python Dasar (Hello Python s.d. Python Packages) menggunakan Python Standard Library.
+# Tidak ada dependensi pihak ketiga (third-party package) yang wajib diinstal.
+# Pastikan menggunakan Python 3.x (disarankan Python 3.10+).
